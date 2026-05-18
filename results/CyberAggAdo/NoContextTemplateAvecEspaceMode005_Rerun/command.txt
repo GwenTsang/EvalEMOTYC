@@ -1,0 +1,1 @@
+/home/gwen/EvalEMOTYC/.venv-gpu/bin/python /home/gwen/EvalEMOTYC/emotyc_predict.py --xlsx /home/gwen/EvalEMOTYC/golds/CyberAdoAgg_gold_global_total.xlsx --out_dir /home/gwen/EvalEMOTYC/results/CyberAggAdo/NoContextTemplateAvecEspaceMode005_RerunCurrentOnly_BS260_20260511_111410 --template bca_spaced --batch-size 260 --mode-threshold 0.05

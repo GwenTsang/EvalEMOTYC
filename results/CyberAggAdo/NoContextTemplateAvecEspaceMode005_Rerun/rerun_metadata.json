@@ -1,0 +1,27 @@
+{
+  "old_name": "NoContextTemplateAvecEspaceMode005",
+  "new_name": "NoContextTemplateAvecEspaceMode005_RerunCurrentOnly_BS260_20260511_111410",
+  "out_dir": "/home/gwen/EvalEMOTYC/results/CyberAggAdo/NoContextTemplateAvecEspaceMode005_RerunCurrentOnly_BS260_20260511_111410",
+  "source_xlsx": "/home/gwen/EvalEMOTYC/golds/CyberAdoAgg_gold_global_total.xlsx",
+  "template_arg": "bca_spaced",
+  "expected_template_summary": "bca_spaced_no_context",
+  "use_context": false,
+  "mode_threshold": 0.05,
+  "batch_size": 260,
+  "suffix": "RerunCurrentOnly_BS260_20260511_111410",
+  "command": [
+    "/home/gwen/EvalEMOTYC/.venv-gpu/bin/python",
+    "/home/gwen/EvalEMOTYC/emotyc_predict.py",
+    "--xlsx",
+    "/home/gwen/EvalEMOTYC/golds/CyberAdoAgg_gold_global_total.xlsx",
+    "--out_dir",
+    "/home/gwen/EvalEMOTYC/results/CyberAggAdo/NoContextTemplateAvecEspaceMode005_RerunCurrentOnly_BS260_20260511_111410",
+    "--template",
+    "bca_spaced",
+    "--batch-size",
+    "260",
+    "--mode-threshold",
+    "0.05"
+  ],
+  "started_at": "2026-05-11T11:17:51"
+}

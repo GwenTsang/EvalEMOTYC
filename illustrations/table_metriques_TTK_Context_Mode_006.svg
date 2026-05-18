@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 670 720" width="704" height="756">
+
+    <style>
+        text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #333; }
+        .header-text { font-weight: 600; fill: #111; }
+        .bg-header { fill: #f3f4f6; }
+        .bg-row-even { fill: #ffffff; }
+        .bg-row-odd { fill: #fafafa; }
+        .border { stroke: #d1d5db; stroke-width: 1px; }
+    </style>
+    
+  <rect x="0" y="0" width="670" height="36" class="bg-header" />
+  <line x1="0" y1="36" x2="670" y2="36" class="border" />
+  <text x="12" y="23.0" text-anchor="start" class="header-text">Label</text>
+  <text x="220.0" y="23.0" text-anchor="middle" class="header-text">F1</text>
+  <text x="305.0" y="23.0" text-anchor="middle" class="header-text">Précision</text>
+  <text x="390.0" y="23.0" text-anchor="middle" class="header-text">Rappel</text>
+  <text x="460.0" y="23.0" text-anchor="middle" class="header-text">FN</text>
+  <text x="520.0" y="23.0" text-anchor="middle" class="header-text">FP</text>
+  <text x="580.0" y="23.0" text-anchor="middle" class="header-text">TN</text>
+  <text x="640.0" y="23.0" text-anchor="middle" class="header-text">TP</text>
+  <rect x="0" y="36" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="72" x2="670" y2="72" class="border" />
+  <text x="12" y="59.0" text-anchor="start" class="">Emo</text>
+  <text x="220.0" y="59.0" text-anchor="middle" class="">0.930</text>
+  <text x="305.0" y="59.0" text-anchor="middle" class="">0.927</text>
+  <text x="390.0" y="59.0" text-anchor="middle" class="">0.933</text>
+  <text x="460.0" y="59.0" text-anchor="middle" class="">358</text>
+  <text x="520.0" y="59.0" text-anchor="middle" class="">394</text>
+  <text x="580.0" y="59.0" text-anchor="middle" class="">22143</text>
+  <text x="640.0" y="59.0" text-anchor="middle" class="">5016</text>
+  <rect x="0" y="72" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="108" x2="670" y2="108" class="border" />
+  <text x="12" y="95.0" text-anchor="start" class="">Colere</text>
+  <text x="220.0" y="95.0" text-anchor="middle" class="">0.916</text>
+  <text x="305.0" y="95.0" text-anchor="middle" class="">0.915</text>
+  <text x="390.0" y="95.0" text-anchor="middle" class="">0.917</text>
+  <text x="460.0" y="95.0" text-anchor="middle" class="">98</text>
+  <text x="520.0" y="95.0" text-anchor="middle" class="">100</text>
+  <text x="580.0" y="95.0" text-anchor="middle" class="">26631</text>
+  <text x="640.0" y="95.0" text-anchor="middle" class="">1082</text>
+  <rect x="0" y="108" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="144" x2="670" y2="144" class="border" />
+  <text x="12" y="131.0" text-anchor="start" class="">Degout</text>
+  <text x="220.0" y="131.0" text-anchor="middle" class="">0.143</text>
+  <text x="305.0" y="131.0" text-anchor="middle" class="">1.000</text>
+  <text x="390.0" y="131.0" text-anchor="middle" class="">0.077</text>
+  <text x="460.0" y="131.0" text-anchor="middle" class="">48</text>
+  <text x="520.0" y="131.0" text-anchor="middle" class="">0</text>
+  <text x="580.0" y="131.0" text-anchor="middle" class="">27859</text>
+  <text x="640.0" y="131.0" text-anchor="middle" class="">4</text>
+  <rect x="0" y="144" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="180" x2="670" y2="180" class="border" />
+  <text x="12" y="167.0" text-anchor="start" class="">Joie</text>
+  <text x="220.0" y="167.0" text-anchor="middle" class="">0.881</text>
+  <text x="305.0" y="167.0" text-anchor="middle" class="">0.912</text>
+  <text x="390.0" y="167.0" text-anchor="middle" class="">0.853</text>
+  <text x="460.0" y="167.0" text-anchor="middle" class="">131</text>
+  <text x="520.0" y="167.0" text-anchor="middle" class="">73</text>
+  <text x="580.0" y="167.0" text-anchor="middle" class="">26950</text>
+  <text x="640.0" y="167.0" text-anchor="middle" class="">757</text>
+  <rect x="0" y="180" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="216" x2="670" y2="216" class="border" />
+  <text x="12" y="203.0" text-anchor="start" class="">Peur</text>
+  <text x="220.0" y="203.0" text-anchor="middle" class="">0.890</text>
+  <text x="305.0" y="203.0" text-anchor="middle" class="">0.894</text>
+  <text x="390.0" y="203.0" text-anchor="middle" class="">0.886</text>
+  <text x="460.0" y="203.0" text-anchor="middle" class="">119</text>
+  <text x="520.0" y="203.0" text-anchor="middle" class="">110</text>
+  <text x="580.0" y="203.0" text-anchor="middle" class="">26754</text>
+  <text x="640.0" y="203.0" text-anchor="middle" class="">928</text>
+  <rect x="0" y="216" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="252" x2="670" y2="252" class="border" />
+  <text x="12" y="239.0" text-anchor="start" class="">Surprise</text>
+  <text x="220.0" y="239.0" text-anchor="middle" class="">0.899</text>
+  <text x="305.0" y="239.0" text-anchor="middle" class="">0.912</text>
+  <text x="390.0" y="239.0" text-anchor="middle" class="">0.886</text>
+  <text x="460.0" y="239.0" text-anchor="middle" class="">94</text>
+  <text x="520.0" y="239.0" text-anchor="middle" class="">70</text>
+  <text x="580.0" y="239.0" text-anchor="middle" class="">27017</text>
+  <text x="640.0" y="239.0" text-anchor="middle" class="">730</text>
+  <rect x="0" y="252" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="288" x2="670" y2="288" class="border" />
+  <text x="12" y="275.0" text-anchor="start" class="">Tristesse</text>
+  <text x="220.0" y="275.0" text-anchor="middle" class="">0.840</text>
+  <text x="305.0" y="275.0" text-anchor="middle" class="">0.865</text>
+  <text x="390.0" y="275.0" text-anchor="middle" class="">0.817</text>
+  <text x="460.0" y="275.0" text-anchor="middle" class="">123</text>
+  <text x="520.0" y="275.0" text-anchor="middle" class="">86</text>
+  <text x="580.0" y="275.0" text-anchor="middle" class="">27152</text>
+  <text x="640.0" y="275.0" text-anchor="middle" class="">550</text>
+  <rect x="0" y="288" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="324" x2="670" y2="324" class="border" />
+  <text x="12" y="311.0" text-anchor="start" class="">Admiration</text>
+  <text x="220.0" y="311.0" text-anchor="middle" class="">0.747</text>
+  <text x="305.0" y="311.0" text-anchor="middle" class="">0.854</text>
+  <text x="390.0" y="311.0" text-anchor="middle" class="">0.663</text>
+  <text x="460.0" y="311.0" text-anchor="middle" class="">71</text>
+  <text x="520.0" y="311.0" text-anchor="middle" class="">24</text>
+  <text x="580.0" y="311.0" text-anchor="middle" class="">27676</text>
+  <text x="640.0" y="311.0" text-anchor="middle" class="">140</text>
+  <rect x="0" y="324" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="360" x2="670" y2="360" class="border" />
+  <text x="12" y="347.0" text-anchor="start" class="">Culpabilite</text>
+  <text x="220.0" y="347.0" text-anchor="middle" class="">0.000</text>
+  <text x="305.0" y="347.0" text-anchor="middle" class="">0.000</text>
+  <text x="390.0" y="347.0" text-anchor="middle" class="">0.000</text>
+  <text x="460.0" y="347.0" text-anchor="middle" class="">19</text>
+  <text x="520.0" y="347.0" text-anchor="middle" class="">0</text>
+  <text x="580.0" y="347.0" text-anchor="middle" class="">27892</text>
+  <text x="640.0" y="347.0" text-anchor="middle" class="">0</text>
+  <rect x="0" y="360" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="396" x2="670" y2="396" class="border" />
+  <text x="12" y="383.0" text-anchor="start" class="">Embarras</text>
+  <text x="220.0" y="383.0" text-anchor="middle" class="">0.797</text>
+  <text x="305.0" y="383.0" text-anchor="middle" class="">0.818</text>
+  <text x="390.0" y="383.0" text-anchor="middle" class="">0.778</text>
+  <text x="460.0" y="383.0" text-anchor="middle" class="">36</text>
+  <text x="520.0" y="383.0" text-anchor="middle" class="">28</text>
+  <text x="580.0" y="383.0" text-anchor="middle" class="">27721</text>
+  <text x="640.0" y="383.0" text-anchor="middle" class="">126</text>
+  <rect x="0" y="396" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="432" x2="670" y2="432" class="border" />
+  <text x="12" y="419.0" text-anchor="start" class="">Fierte</text>
+  <text x="220.0" y="419.0" text-anchor="middle" class="">0.807</text>
+  <text x="305.0" y="419.0" text-anchor="middle" class="">0.840</text>
+  <text x="390.0" y="419.0" text-anchor="middle" class="">0.777</text>
+  <text x="460.0" y="419.0" text-anchor="middle" class="">45</text>
+  <text x="520.0" y="419.0" text-anchor="middle" class="">30</text>
+  <text x="580.0" y="419.0" text-anchor="middle" class="">27679</text>
+  <text x="640.0" y="419.0" text-anchor="middle" class="">157</text>
+  <rect x="0" y="432" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="468" x2="670" y2="468" class="border" />
+  <text x="12" y="455.0" text-anchor="start" class="">Jalousie</text>
+  <text x="220.0" y="455.0" text-anchor="middle" class="">0.000</text>
+  <text x="305.0" y="455.0" text-anchor="middle" class="">0.000</text>
+  <text x="390.0" y="455.0" text-anchor="middle" class="">0.000</text>
+  <text x="460.0" y="455.0" text-anchor="middle" class="">7</text>
+  <text x="520.0" y="455.0" text-anchor="middle" class="">0</text>
+  <text x="580.0" y="455.0" text-anchor="middle" class="">27904</text>
+  <text x="640.0" y="455.0" text-anchor="middle" class="">0</text>
+  <rect x="0" y="468" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="504" x2="670" y2="504" class="border" />
+  <text x="12" y="491.0" text-anchor="start" class="">Autre</text>
+  <text x="220.0" y="491.0" text-anchor="middle" class="">0.903</text>
+  <text x="305.0" y="491.0" text-anchor="middle" class="">0.886</text>
+  <text x="390.0" y="491.0" text-anchor="middle" class="">0.921</text>
+  <text x="460.0" y="491.0" text-anchor="middle" class="">100</text>
+  <text x="520.0" y="491.0" text-anchor="middle" class="">151</text>
+  <text x="580.0" y="491.0" text-anchor="middle" class="">26490</text>
+  <text x="640.0" y="491.0" text-anchor="middle" class="">1170</text>
+  <rect x="0" y="504" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="540" x2="670" y2="540" class="border" />
+  <text x="12" y="527.0" text-anchor="start" class="">Comportementale</text>
+  <text x="220.0" y="527.0" text-anchor="middle" class="">0.852</text>
+  <text x="305.0" y="527.0" text-anchor="middle" class="">0.789</text>
+  <text x="390.0" y="527.0" text-anchor="middle" class="">0.925</text>
+  <text x="460.0" y="527.0" text-anchor="middle" class="">93</text>
+  <text x="520.0" y="527.0" text-anchor="middle" class="">307</text>
+  <text x="580.0" y="527.0" text-anchor="middle" class="">26362</text>
+  <text x="640.0" y="527.0" text-anchor="middle" class="">1149</text>
+  <rect x="0" y="540" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="576" x2="670" y2="576" class="border" />
+  <text x="12" y="563.0" text-anchor="start" class="">Designee</text>
+  <text x="220.0" y="563.0" text-anchor="middle" class="">0.886</text>
+  <text x="305.0" y="563.0" text-anchor="middle" class="">0.828</text>
+  <text x="390.0" y="563.0" text-anchor="middle" class="">0.953</text>
+  <text x="460.0" y="563.0" text-anchor="middle" class="">71</text>
+  <text x="520.0" y="563.0" text-anchor="middle" class="">296</text>
+  <text x="580.0" y="563.0" text-anchor="middle" class="">26116</text>
+  <text x="640.0" y="563.0" text-anchor="middle" class="">1428</text>
+  <rect x="0" y="576" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="612" x2="670" y2="612" class="border" />
+  <text x="12" y="599.0" text-anchor="start" class="">Montree</text>
+  <text x="220.0" y="599.0" text-anchor="middle" class="">0.872</text>
+  <text x="305.0" y="599.0" text-anchor="middle" class="">0.842</text>
+  <text x="390.0" y="599.0" text-anchor="middle" class="">0.904</text>
+  <text x="460.0" y="599.0" text-anchor="middle" class="">93</text>
+  <text x="520.0" y="599.0" text-anchor="middle" class="">165</text>
+  <text x="580.0" y="599.0" text-anchor="middle" class="">26775</text>
+  <text x="640.0" y="599.0" text-anchor="middle" class="">878</text>
+  <rect x="0" y="612" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="648" x2="670" y2="648" class="border" />
+  <text x="12" y="635.0" text-anchor="start" class="">Suggeree</text>
+  <text x="220.0" y="635.0" text-anchor="middle" class="">0.772</text>
+  <text x="305.0" y="635.0" text-anchor="middle" class="">0.693</text>
+  <text x="390.0" y="635.0" text-anchor="middle" class="">0.872</text>
+  <text x="460.0" y="635.0" text-anchor="middle" class="">244</text>
+  <text x="520.0" y="635.0" text-anchor="middle" class="">738</text>
+  <text x="580.0" y="635.0" text-anchor="middle" class="">25264</text>
+  <text x="640.0" y="635.0" text-anchor="middle" class="">1665</text>
+  <rect x="0" y="648" width="670" height="36" class="bg-row-odd" />
+  <line x1="0" y1="684" x2="670" y2="684" class="border" />
+  <text x="12" y="671.0" text-anchor="start" class="">Base</text>
+  <text x="220.0" y="671.0" text-anchor="middle" class="">0.916</text>
+  <text x="305.0" y="671.0" text-anchor="middle" class="">0.922</text>
+  <text x="390.0" y="671.0" text-anchor="middle" class="">0.910</text>
+  <text x="460.0" y="671.0" text-anchor="middle" class="">372</text>
+  <text x="520.0" y="671.0" text-anchor="middle" class="">316</text>
+  <text x="580.0" y="671.0" text-anchor="middle" class="">23462</text>
+  <text x="640.0" y="671.0" text-anchor="middle" class="">3761</text>
+  <rect x="0" y="684" width="670" height="36" class="bg-row-even" />
+  <line x1="0" y1="720" x2="670" y2="720" class="border" />
+  <text x="12" y="707.0" text-anchor="start" class="">Complexe</text>
+  <text x="220.0" y="707.0" text-anchor="middle" class="">0.848</text>
+  <text x="305.0" y="707.0" text-anchor="middle" class="">0.904</text>
+  <text x="390.0" y="707.0" text-anchor="middle" class="">0.797</text>
+  <text x="460.0" y="707.0" text-anchor="middle" class="">115</text>
+  <text x="520.0" y="707.0" text-anchor="middle" class="">48</text>
+  <text x="580.0" y="707.0" text-anchor="middle" class="">27295</text>
+  <text x="640.0" y="707.0" text-anchor="middle" class="">453</text>
+  <line x1="180" y1="0" x2="180" y2="720" class="border" />
+  <line x1="260" y1="0" x2="260" y2="720" class="border" />
+  <line x1="350" y1="0" x2="350" y2="720" class="border" />
+  <line x1="430" y1="0" x2="430" y2="720" class="border" />
+  <line x1="490" y1="0" x2="490" y2="720" class="border" />
+  <line x1="550" y1="0" x2="550" y2="720" class="border" />
+  <line x1="610" y1="0" x2="610" y2="720" class="border" />
+  <rect x="0" y="0" width="670" height="720" class="border" fill="none" />
+</svg>
