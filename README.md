@@ -199,7 +199,7 @@ python delta_heatmap.py \
   --out ./results/heatmap_delta_NoContextTemplateAvecEspaceMode006.html
 ```
 
-### Tableau des performances TTK _vs_ CyberAggAdo avec les phrases adjacentes (`--use-context`) :
+### Tableau des performances TTK _vs_ CyberAggAdo avec les phrases adjacentes :
 
 
 ![Table Delta Context](illustrations/table_delta_context.svg)
