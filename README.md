@@ -49,27 +49,7 @@ Le rapport de recherche qui détaille le schéma d'annotation dans sa version Gl
 
 
 
-### Orchestration sur un dossier
 
-Lance l'inférence de manière séquentielle sur plusieurs fichiers Excel, puis fusionne tous les résultats dans un unique dossier `merged`.
-
-L'objectif principal de cet orchestrateur est de préserver l'intégrité du contexte BCA. Si l'on utilise l'option `--use-context`, il faut absolument éviter qu'une phrase située à la fin d'un fichier XLSX se retrouve injectée artificiellement comme contexte "before" de la première phrase du fichier XLSX suivant. C'est pourquoi :
-  - Les données ne sont pas concaténées avant l'inférence.
-  - Le script d'inférence est lancé séparément, dans un processus isolé, sur chaque bloc ou fichier individuel.
-  - Les résultats (Excel et JSONL) ne sont fusionnés qu'après la phase d'inférence.
-
-**Précautions d'échantillonnage et d'encodage :**
-
-- L'échantillonnage contigu doit, par défaut, tirer un bloc de taille 50. Si l'indice de départ est `i` (tiré dans l'intervalle `[0 ; len(xlsx) - 50]`), le bloc sélectionné va de `i` jusqu’à `i + 50` exclu.
-- **Attention à l'échantillonnage non contigu** : si les phrases sont mélangées ou sélectionnées aléatoirement, il faut être très prudent avec `--use-context`. Le contexte `before`/`after` suivrait alors l’ordre du sous-ensemble et non pas les vraies phrases voisines du document source. La recommandation est donc de ne pas passer **`--use-context`** pour tout échantillonnage non contigu.
-
-**Exemple d'utilisation :**
-```bash
-python orchestrate_emotyc_folder.py \
-    --input-dir ./golds \
-    --out-dir ./results/orchestrated_run \
-    --use-context
-```
 
 ### Génération d'un rapport HTML (`json_summary_to_html.py`)
 
@@ -236,6 +216,22 @@ add_special_tokens=False
 Nos tests montrent que les performances d'EMOTYC diminuent quand `add_special_tokens=True`, ce qui suggère que l'ajout de tokens spéciaux était bien désactivé pendant le fine-tuning. Avec `add_special_tokens=False`, le premier token de la séquence n’est pas le token spécial `<s>`, mais le premier token produit par la tokenisation du template BCA, qui correspond au fragment lexical `_be` (car `CamembertTokenizer` ajoute le préfixe `_` lorsqu’un mot est précédé d’un espace). L’état caché associé à ce token en position 0 à la 12e couche du modèle sert de représentation globale utilisée pour la classification.
 
 D'autres tests montrent également que la configuration avec template BCA et `add_special_tokens=True` reste assez performante, bien qu’inférieure à la configuration sans tokens spéciaux. Cela suggère que, dans les deux cas, l'architecture Transformer parvient à diriger l'information pertinente vers la position 0 (qu'il s'agisse du token `_be` lorsque `add_special_tokens=False`, ou du token spécial `<s>` lorsque `add_special_tokens=True`).
+
+### Contiguité et non contiguité
+
+Lance l'inférence de manière séquentielle sur plusieurs fichiers Excel, puis fusionne tous les résultats dans un unique dossier `merged`.
+
+L'objectif principal de cet orchestrateur est de préserver l'intégrité du contexte BCA. Si on produit un XLSX qui résulte d'une concaténation, puis qu'on utilise l'option `--use-context`, une phrase située à la fin d'un fichier XLSX se retrouve injectée comme contexte "before" de la première phrase du fichier XLSX suivant. C'est pourquoi il faut lançer le script d'inférence sur chaque bloc ou fichier individuel. L'échantillonnage contigu doit, par défaut, tirer un bloc de taille 50. Si l'indice de départ est `i` (tiré dans l'intervalle `[0 ; len(xlsx) - 50]`), le bloc sélectionné va de `i` jusqu’à `i + 50` exclu.
+
+Si les phrases sont mélangées ou sélectionnées aléatoirement, il faut être très prudent avec `--use-context`. Le contexte `before`/`after` suivrait alors l’ordre du sous-ensemble et non pas les vraies phrases voisines du document source. La recommandation est donc de ne pas utiliser **`--use-context`** pour tout échantillonnage non contigu.
+
+**Exemple d'utilisation :**
+```bash
+python orchestrate_emotyc_folder.py \
+    --input-dir ./golds \
+    --out-dir ./results/orchestrated_run \
+    --use-context
+```
 
 
 ## Remarques relatives à l'optimisation des scripts d'inférence
